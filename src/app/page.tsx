@@ -1,6 +1,4 @@
 "use client";
-import BigLogo from "@/components/BigLogo";
-import CTAButton from "@/components/CTAButton";
 import Footer from "@/components/Footer";
 import Loader from "@/components/Loader";
 import Navbar from "@/components/Navbar";

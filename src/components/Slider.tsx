@@ -30,7 +30,7 @@ const Slide2 = () => {
         alt="illustration"
       />
       <div className="flex flex-col gap-6">
-        <h1 className="font-serif text-white text-5xl max-w-[454px] text-left leading-[54px]">
+        <h1 className="font-serif text-white text-5xl max-w-[470px] text-left leading-[54px]">
           Dual does all the swiping on your apps.
         </h1>
         <p className="text-[#575A5E] text-2xl">
