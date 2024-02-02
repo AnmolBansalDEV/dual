@@ -8,6 +8,28 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        right: {
+          '0%': {
+            transform: 'translateX(0px)'
+          },
+          '100%': {
+            transform: 'translateX(100px)'
+          }
+        },
+        left: {
+          '0%': {
+            transform: 'translateX(0px)'
+          },
+          '100%': {
+            transform: 'translateX(-100px)'
+          }
+        }
+      },
+      animation: {
+        'move-right': 'right .5s linear forwards',
+        'move-left': 'left .5s linear forwards',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
