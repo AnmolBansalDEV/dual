@@ -23,7 +23,7 @@ export default function Home() {
     <main className="flex h-screen flex-col items-center justify-between px-20 pt-[100px] pb-[52px] bg-black">
       <Navbar />
       <Slider />
-      <Footer />
+      <Footer />  
     </main>
   );
 }
