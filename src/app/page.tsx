@@ -1,6 +1,7 @@
 "use client";
 import BigLogo from "@/components/BigLogo";
 import CTAButton from "@/components/CTAButton";
+import Footer from "@/components/Footer";
 import Loader from "@/components/Loader";
 import Navbar from "@/components/Navbar";
 import Slider from "@/components/Slider";
@@ -15,15 +16,16 @@ export default function Home() {
   }, []);
   if (loading) {
     return (
-      <main className="flex h-screen flex-col items-center justify-between px-20 py-[100px] bg-black">
+      <main className="flex h-screen flex-col items-center justify-between px-20 pt-[100px] pb-[52px] bg-black">
         <Loader />
       </main>
     );
   }
   return (
-    <main className="flex h-screen flex-col items-center justify-between px-20 py-[100px] bg-black">
+    <main className="flex h-screen flex-col items-center justify-between px-20 pt-[100px] pb-[52px] bg-black">
       <Navbar />
       <Slider />
+      <Footer />
     </main>
   );
 }
